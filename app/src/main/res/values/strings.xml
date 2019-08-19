@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Find My All Aboard</string>
+    <string name="app_name">AllAboard</string>
+    <string name="app_name_loading">AllAboard - Loading train information...</string>
+    <string name="routes_prompt">Choose a Route</string>
+    <string name="station1_prompt">Station 1</string>
+    <string name="station2_prompt">Station 2</string>
+    <string name="phone_prompt">Phone Number</string>
+    <string name="message_prompt">Pickup Message</string>
+    <string name="nearest_station"> Find Nearest Station </string>
+    <string name="splash_screen_text1">Splash Screen</string>
+    <string name="ACRACrashReport">AllAboard has ended.  Please report this problem.  Be sure to say what you were doing when it happened.  Thank you.</string>
+    <string-array name="routes_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+
+</resources>

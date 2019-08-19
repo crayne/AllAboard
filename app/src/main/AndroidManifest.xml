@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+New train
+Added highlight when button is clicked
+Made return from PickupMessage faster
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oryx.allaboard"
+    android:versionCode= "310"
+    android:versionName="3.10"
+    >
+    <!-- android:installLocation="preferExternal" put on sd card -->
+    <application  android:icon="@drawable/icon"
+        android:label="AllAboard"
+        android:enabled="true"
+        android:theme="@style/AllAboardStyle"
+        android:name=".AcraStuff"
+        >
+
+        <activity android:name=".SplashScreen"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AllAboardApp"
+            android:label = "@string/app_name"
+            android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name=".PickupMessage"
+            android:label = "@string/app_name">
+        </activity>
+        <activity android:name=".MainApp"
+            android:label = "@string/app_name"
+            android:alwaysRetainTaskState = "true"
+            android:launchMode = "singleTop" >
+        </activity>
+
+
+    </application >
+
+    <uses-permission
+        android:name="android.permission.INTERNET">
+    </uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.CONTROL_LOCATION_UPDATES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+
+
+</manifest>

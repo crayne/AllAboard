@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:orientation="vertical"
+  android:layout_height="fill_parent">
+  
+<TextView 
+	android:id="@+id/phone_prompt" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/phone_prompt"
+    android:typeface="sans"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="10sp"
+/>
+
+<EditText 
+    android:text="" 
+	android:id="@+id/phone_number" 
+	android:layout_width="150sp"
+	android:textStyle="normal"
+	android:textColor="@color/black"
+	android:background="#FFFFFF"
+	android:padding="10sp"				
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="20sp">
+    
+	
+</EditText>
+
+<TextView 
+	android:id="@+id/message_prompt" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/message_prompt"
+    android:typeface="sans"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="10sp"
+/>
+	
+<EditText android:text="" 
+	android:id="@+id/pickup_message" 
+	android:layout_width="fill_parent" 
+	android:textStyle="normal"
+	android:background="#FFFFFF"
+	android:padding="10sp"	
+	android:layout_marginBottom="20sp"
+	android:layout_height="wrap_content">
+</EditText>	
+
+<Button
+	android:id="@+id/send_message"
+	android:text="Send Message"
+	android:layout_width="wrap_content" 
+	android:layout_height="30sp"
+	android:layout_marginTop="10sp"
+	android:layout_gravity="center_horizontal"
+	android:typeface="sans"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:background="@drawable/button_changer"
+    android:textColor="#FFFFFF"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp"
+    android:layout_marginBottom="20sp"
+    
+>    
+    
+</Button>
+
+<Button
+	android:id="@+id/finish"
+	android:text="Return"
+	android:layout_width="wrap_content" 
+	android:layout_height="30sp"
+	android:layout_marginTop="10sp"
+	android:layout_gravity="center_horizontal"
+	android:typeface="sans"
+    android:textSize="16sp"
+    android:background="@drawable/button_changer"
+    android:textColor="#FFFFFF"
+    android:textStyle="bold"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp"
+>
+</Button>
+
+</LinearLayout>

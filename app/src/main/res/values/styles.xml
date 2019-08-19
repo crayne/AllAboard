@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="background">#0000ffff</color> 
+<style name="Theme" parent="android:style/Theme">
+
+</style>
+
+</resources>

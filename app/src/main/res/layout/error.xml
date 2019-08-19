@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+>
+
+
+ <TextView  
+ 	android:id="@+id/error_id" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="error place holder"
+    android:textColor="#ffa500"
+    android:typeface="sans"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:paddingLeft="8sp"
+    android:paddingRight="8sp"
+  
+    
+/>
+
+
+    
+</LinearLayout>
