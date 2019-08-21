@@ -34,6 +34,7 @@ import java.util.TimerTask;
  *  is garbage in the version.txt file on the server.  The fix is to allow the database to be downloaded, since we can't read the
  *  server version number. 
  * 12/7/2011 Validity checks and error messages in pickup message function
+ * 08/21/2019 Version message
  */
 
 
