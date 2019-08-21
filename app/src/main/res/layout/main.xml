@@ -132,7 +132,7 @@
 
     </LinearLayout>
 
-    <!-- Version Number -->
+    <!-- App Version Number -->
     <TextView
         android:id="@+id/version_number"
         android:layout_width="fill_parent"
