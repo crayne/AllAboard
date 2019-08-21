@@ -1,0 +1,212 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:7:1-61:12
+INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:7:1-61:12
+INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:7:1-61:12
+INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:7:1-61:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/3e9e471a9e16c92ddff9798d6686be32/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/b4e5aa935c6d70bdb6ca9b0c0a0410e0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/630f871e1d27027c7f071b676de3d715/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/548006d36e0d62b2fd41e1fde54c4015/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/52b57f988f2f1a5a7514a0432ae39bab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/e7422e4aa8bc6b6aadb193b476c006d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/df59e550c30818e5634cd7958d870cae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/66a38ddec459bea077e4b24b160eb442/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/7b186ad515b06f9e82460771edfc2fa0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/b6e63e2d165a4c05e70bb77eaeb888d2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/19c5884e466b467e9ed9ccad65bae674/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/d4e253c098c2d17594f53814001cda41/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/5bfd61aab6cb10b7b35f7f1b27c1fc5c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/56e46038dba559f6e364952d0e1ca9a2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/715eea281b65dcf2125f9cb7041f8e96/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/e25747d33ec417d9988f4a74095d6471/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/75c913fe9571dea5ff1c1cf992d122d4/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/a51a43776d9fdfe1277ccc06186a253e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/0f9a9ca8d29a1266adb8cc11a3e86074/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/9ec95d33df9a3f4b5e979f6feca3e4e6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/797638f874f7bb23c8d2f4e72a137b2a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/7330db2fb2b33cfae22097d485f3cb95/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/4d3891c613381c9932c351d60a902de9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/4e7c50140c738b86668dc5ef4204cc89/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/0bac5df1a8253790d3e48b931e80891d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/07b482aa1e6f699c60c21e05afac4ef3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/fb4a5cd962bd1a5d148c67f496c2a67d/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:7:1-61:12
+INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:7:1-61:12
+INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:7:1-61:12
+	package
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:8:5-33
+		INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:10:5-31
+		INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:7:11-69
+	android:versionCode
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:9:5-31
+		INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:13:5-42:20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/e25747d33ec417d9988f4a74095d6471/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/e25747d33ec417d9988f4a74095d6471/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/75c913fe9571dea5ff1c1cf992d122d4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/75c913fe9571dea5ff1c1cf992d122d4/AndroidManifest.xml:22:5-23:19
+	android:enabled
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:15:9-31
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/e25747d33ec417d9988f4a74095d6471/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:14:9-34
+	android:icon
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:13:19-48
+	android:theme
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:16:9-46
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:17:9-34
+activity#com.oryx.allaboard.SplashScreen
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:20:9-27:20
+	android:label
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:21:13-45
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:20:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:25:27-74
+activity#com.oryx.allaboard.AllAboardApp
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:28:9-31:20
+	android:label
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:29:13-47
+	android:configChanges
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:30:13-63
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:28:19-47
+activity#com.oryx.allaboard.PickupMessage
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:32:9-34:20
+	android:label
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:33:13-47
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:32:19-48
+activity#com.oryx.allaboard.MainApp
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:35:9-39:20
+	android:label
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:36:13-47
+	android:launchMode
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:38:13-45
+	android:alwaysRetainTaskState
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:37:13-51
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:35:19-42
+uses-permission#android.permission.INTERNET
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:44:5-46:23
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:45:9-51
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:47:5-83
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:47:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:49:5-81
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:49:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:50:5-79
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:50:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:51:5-89
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:51:22-86
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:52:5-79
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:52:22-76
+uses-permission#android.permission.CONTROL_LOCATION_UPDATES
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:53:5-83
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:53:22-80
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:55:5-81
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:55:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:56:5-80
+	android:name
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml:56:22-77
+uses-sdk
+INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/3e9e471a9e16c92ddff9798d6686be32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/3e9e471a9e16c92ddff9798d6686be32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/b4e5aa935c6d70bdb6ca9b0c0a0410e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/b4e5aa935c6d70bdb6ca9b0c0a0410e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/630f871e1d27027c7f071b676de3d715/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/630f871e1d27027c7f071b676de3d715/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/548006d36e0d62b2fd41e1fde54c4015/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/548006d36e0d62b2fd41e1fde54c4015/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/52b57f988f2f1a5a7514a0432ae39bab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/52b57f988f2f1a5a7514a0432ae39bab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/e7422e4aa8bc6b6aadb193b476c006d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/e7422e4aa8bc6b6aadb193b476c006d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/df59e550c30818e5634cd7958d870cae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/df59e550c30818e5634cd7958d870cae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/66a38ddec459bea077e4b24b160eb442/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/66a38ddec459bea077e4b24b160eb442/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/7b186ad515b06f9e82460771edfc2fa0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/7b186ad515b06f9e82460771edfc2fa0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/b6e63e2d165a4c05e70bb77eaeb888d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/b6e63e2d165a4c05e70bb77eaeb888d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/19c5884e466b467e9ed9ccad65bae674/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/19c5884e466b467e9ed9ccad65bae674/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/d4e253c098c2d17594f53814001cda41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/d4e253c098c2d17594f53814001cda41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/5bfd61aab6cb10b7b35f7f1b27c1fc5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/5bfd61aab6cb10b7b35f7f1b27c1fc5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/56e46038dba559f6e364952d0e1ca9a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/56e46038dba559f6e364952d0e1ca9a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/715eea281b65dcf2125f9cb7041f8e96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/715eea281b65dcf2125f9cb7041f8e96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/e25747d33ec417d9988f4a74095d6471/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/e25747d33ec417d9988f4a74095d6471/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/75c913fe9571dea5ff1c1cf992d122d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/75c913fe9571dea5ff1c1cf992d122d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/a51a43776d9fdfe1277ccc06186a253e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/a51a43776d9fdfe1277ccc06186a253e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/0f9a9ca8d29a1266adb8cc11a3e86074/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/0f9a9ca8d29a1266adb8cc11a3e86074/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/9ec95d33df9a3f4b5e979f6feca3e4e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/9ec95d33df9a3f4b5e979f6feca3e4e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/797638f874f7bb23c8d2f4e72a137b2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/797638f874f7bb23c8d2f4e72a137b2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/7330db2fb2b33cfae22097d485f3cb95/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/7330db2fb2b33cfae22097d485f3cb95/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/4d3891c613381c9932c351d60a902de9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/4d3891c613381c9932c351d60a902de9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/4e7c50140c738b86668dc5ef4204cc89/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/4e7c50140c738b86668dc5ef4204cc89/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/0bac5df1a8253790d3e48b931e80891d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/0bac5df1a8253790d3e48b931e80891d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/07b482aa1e6f699c60c21e05afac4ef3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/07b482aa1e6f699c60c21e05afac4ef3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/fb4a5cd962bd1a5d148c67f496c2a67d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/susancrayne/.gradle/caches/transforms-2/files-2.1/fb4a5cd962bd1a5d148c67f496c2a67d/AndroidManifest.xml:20:5-44
+INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+		ADDED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/susancrayne/AllAboard/app/src/main/AndroidManifest.xml

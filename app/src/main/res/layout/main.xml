@@ -1,127 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical"
-    android:windowBackground="@color/black" >
+    android:layout_height="fill_parent">
 
-    <!-- Find Nearest Station button -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:windowBackground="@color/black">
 
-    <Button
-        android:id="@+id/nearest_station_id"
-        android:layout_width="200sp"
-        android:layout_height="30sp"
-        android:layout_marginBottom="10sp"
-        android:background="@drawable/button_changer"
-        android:gravity="center_vertical|center_horizontal"
-        android:text="@string/nearest_station"
-        android:textColor="@color/white"
-        android:textStyle="bold" />
- 
-    <!-- Station1 label -->
+        <!-- Find Nearest Station button -->
 
+        <Button
+            android:id="@+id/nearest_station_id"
+            android:layout_width="200sp"
+            android:layout_height="30sp"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/button_changer"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/nearest_station"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <!-- Station1 label -->
+
+        <TextView
+            android:id="@+id/station1_prompt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8sp"
+            android:paddingRight="10sp"
+            android:text="@string/station1_prompt"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <!-- Spinner 1 -->
+
+        <Spinner
+            android:id="@+id/station1_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="30sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/button_changer"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp" />
+
+        <!-- Station2 label -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8sp"
+            android:paddingRight="8sp"
+            android:text="@string/station2_prompt"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <!-- Spinner 2 -->
+
+        <Spinner
+            android:id="@+id/station2_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="30sp"
+            android:background="@drawable/button_changer"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp" />
+
+        <!-- name of station 1 -->
+
+        <TextView
+            android:id="@+id/title12_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="10sp"
+            android:paddingLeft="8sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <!-- list of trains leaving station 1 -->
+
+        <ListView
+            android:id="@+id/stations12_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="70sp"
+            android:layout_marginTop="-15sp"
+            android:listSelector="@android:color/transparent"
+            android:paddingLeft="8sp"
+            android:paddingTop="1sp"
+            android:paddingRight="8sp" />
+
+        <!-- name of station 2 -->
+
+        <TextView
+            android:id="@+id/title21_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="10sp"
+            android:paddingLeft="8sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <!-- list of trains leaving station 2 -->
+
+        <ListView
+            android:id="@+id/stations21_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="70sp"
+            android:layout_marginTop="-15sp"
+            android:paddingLeft="8sp"
+            android:paddingRight="8sp" />
+
+        <!-- how to send a pickup message -->
+
+        <TextView
+            android:id="@+id/pickup_prompt"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:paddingLeft="8sp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+
+    </LinearLayout>
+
+    <!-- Version Number -->
     <TextView
-        android:id="@+id/station1_prompt_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/version_number"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
         android:paddingLeft="8sp"
-        android:paddingRight="10sp"
-        android:text="@string/station1_prompt"
-        android:textSize="16sp"
+        android:text="version"
+        android:textSize="14sp"
         android:textStyle="bold"
         android:typeface="sans" />
 
-    <!-- Spinner 1 -->
-
-    <Spinner
-        android:id="@+id/station1_spinner"
-        android:layout_width="fill_parent"
-        android:layout_height="30sp"
-        android:layout_marginBottom="10sp"
-        android:layout_marginTop="5sp"
-        android:background="@drawable/button_changer"
-        android:gravity="center_vertical|center_horizontal"
-        android:paddingLeft="10sp"
-        android:paddingRight="10sp" />
-
-    <!-- Station2 label -->
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="8sp"
-        android:paddingRight="8sp"
-        android:text="@string/station2_prompt"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:typeface="sans" />
-
-    <!-- Spinner 2 -->
-
-    <Spinner
-        android:id="@+id/station2_spinner"
-        android:layout_width="fill_parent"
-        android:layout_height="30sp"
-        android:background="@drawable/button_changer"
-        android:gravity="center_vertical|center_horizontal"
-        android:paddingLeft="10sp"
-        android:paddingRight="10sp" />
-
-    <!-- name of station 1 -->
-
-    <TextView
-        android:id="@+id/title12_textview"
-        android:layout_width="fill_parent"
-        android:layout_height="40sp"
-        android:layout_marginTop="10sp"
-        android:paddingLeft="8sp"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:typeface="sans" />
-
-    <!-- list of trains leaving station 1 -->
-
-    <ListView
-        android:id="@+id/stations12_listview"
-        android:layout_width="fill_parent"
-        android:layout_height="70sp"
-        android:layout_marginTop="-15sp"
-        android:listSelector="@android:color/transparent"
-        android:paddingLeft="8sp"
-        android:paddingRight="8sp"
-        android:paddingTop="1sp" />
-
-    <!-- name of station 2 -->
-
-    <TextView
-        android:id="@+id/title21_textview"
-        android:layout_width="fill_parent"
-        android:layout_height="40sp"
-        android:layout_marginTop="10sp"
-        android:paddingLeft="8sp"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:typeface="sans" />
-
-    <!-- list of trains leaving station 2 -->
-
-    <ListView
-        android:id="@+id/stations21_listview"
-        android:layout_width="fill_parent"
-        android:layout_height="70sp"
-        android:layout_marginTop="-15sp"
-        android:paddingLeft="8sp"
-        android:paddingRight="8sp" />
-
-    <!-- how to send a pickup message -->
-
-    <TextView
-        android:id="@+id/pickup_prompt"
-        android:layout_width="fill_parent"
-        android:layout_height="40sp"
-        android:paddingLeft="8sp"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:typeface="sans" />
-
-</LinearLayout>
+</RelativeLayout>

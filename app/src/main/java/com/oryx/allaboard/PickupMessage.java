@@ -2,13 +2,15 @@ package com.oryx.allaboard;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import android.telephony.SmsManager;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import org.apache.http.protocol.HTTP;
 
 public class PickupMessage extends Activity {
 	 String msg1 = "My train will be arriving at ";
@@ -55,11 +57,25 @@ public class PickupMessage extends Activity {
 		    	  Toast.makeText( CurrentActivity, "Please enter message.", Toast.LENGTH_SHORT).show();
 		    	  return;
 		      }
-		      SmsManager sm = SmsManager.getDefault();
-			  sm.sendTextMessage(phoneNumber, null, message, null, null);
+		      //SmsManager sm = SmsManager.getDefault();
+			  //sm.sendTextMessage(phoneNumber, null, message, null, null);
 		    	
 		    }
 	};
+
+	private void composeMmsMessage(String message, Uri attachment) {
+		Intent intent = new Intent(Intent.ACTION_SENDTO);
+		intent.setType(HTTP.PLAIN_TEXT_TYPE);
+		intent.putExtra("sms_body", message);
+		intent.putExtra(Intent.EXTRA_STREAM, attachment);
+		if (intent.resolveActivity(getPackageManager()) != null) {
+			startActivity(intent);
+		}
+	}
+
+	private void sendTextMessage(String message, String phone_number){
+
+	}
 
     @Override
     public void onStop() {

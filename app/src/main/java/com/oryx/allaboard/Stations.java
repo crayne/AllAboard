@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -100,7 +102,22 @@ public class Stations {
         pos = fillSpinner(adapter2, stationName2);
 		spinner2.setSelection(pos, false);
 
+		displayVersionNumber(t);
 
+	}
+
+	private static void displayVersionNumber(Activity t){
+		//Get version number
+		TextView versionTextView = (TextView) t.findViewById(R.id.version_number);
+		int versionCode = 0;
+		try {
+			PackageInfo pInfo = t.getPackageManager().getPackageInfo(t.getPackageName(), 0);
+			versionCode = pInfo.versionCode;
+		} catch (PackageManager.NameNotFoundException e) {
+			e.printStackTrace();
+		}
+		String versionText = "version " + versionCode;
+		versionTextView.setText(versionText);
 	}
 
 	private static void initializeLists(Activity t) {
