@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -644,8 +645,12 @@ public class Stations {
 		}
 	}
 
-	public static void goToPickupMessageScreen(AdapterView<?> parent, int pos,
+	public static void sendPickupMessage(AdapterView<?> parent, int pos,
 			String arrivalStation) {
+		String msg1 = "My train will be arriving at ";
+		String msg2 = " at the ";
+		String msg3 = " station.  Can you pick me up?";
+
 		String trainTimesString = parent.getItemAtPosition(pos).toString();
 		if (trainTimesString == null) {
 			Toast.makeText(CurrentActivity, "Train times string is empty.",
@@ -656,15 +661,18 @@ public class Stations {
 		if (trainTimes.length != 2)
 			return;
 		String arrivalTime = trainTimes[1];
-		// Will send parameters later
-		Intent intent = new Intent();
-		intent.setClassName("com.oryx.allaboard",
-				"com.oryx.allaboard.PickupMessage");
-		//key-value pair, where key needs current package prefix
-		intent.putExtra("com.oryx.allaboard.ArrivalStation", arrivalStation); 
-		intent.putExtra("com.oryx.allaboard.ArrivalTime", arrivalTime);
-        getTripsAgain = false;
+
+		getTripsAgain = false;
+		String msgText = msg1 + arrivalTime + msg2 + arrivalStation + msg3;
+
+
+		Intent intent = new Intent(Intent.ACTION_VIEW);
+		intent.setData(Uri.parse("smsto:"));  // This ensures only SMS apps respond
+		intent.putExtra("sms_body", msgText);
+
+
 		CurrentActivity.startActivity(intent);
+
 
 	}
 
@@ -675,7 +683,7 @@ public class Stations {
 			Spinner spinner2 = (Spinner) CurrentActivity
 					.findViewById(R.id.station2_spinner);
 			String arrivalStation = spinner2.getSelectedItem().toString();
-			goToPickupMessageScreen(parent, pos, arrivalStation);
+			sendPickupMessage(parent, pos, arrivalStation);
 		}
 
 		public void onNothingClicked(AdapterView<?> parent) {
@@ -690,7 +698,7 @@ public class Stations {
 			Spinner spinner1 = (Spinner) CurrentActivity
 					.findViewById(R.id.station1_spinner);
 			String arrivalStation = spinner1.getSelectedItem().toString();
-			goToPickupMessageScreen(parent, pos, arrivalStation);
+			sendPickupMessage(parent, pos, arrivalStation);
 		}
 
 		public void onNothingClicked(AdapterView<?> parent) {

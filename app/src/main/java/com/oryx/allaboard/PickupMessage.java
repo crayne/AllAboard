@@ -4,13 +4,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.Editable;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
-import org.apache.http.protocol.HTTP;
 
 public class PickupMessage extends Activity {
 	 String msg1 = "My train will be arriving at ";
@@ -52,29 +51,28 @@ public class PickupMessage extends Activity {
 		    	  return;
 		      }
 		      EditText messageWidget = (EditText)findViewById(R.id.pickup_message);
-		      String message = messageWidget.getText().toString();
+		      Editable editMessage = messageWidget.getText();
+		      String message = editMessage.toString();
 		      if (message == null || message.equals("")) {
 		    	  Toast.makeText( CurrentActivity, "Please enter message.", Toast.LENGTH_SHORT).show();
 		    	  return;
 		      }
 		      //SmsManager sm = SmsManager.getDefault();
 			  //sm.sendTextMessage(phoneNumber, null, message, null, null);
+			  sendTextMessage(message, phoneNumber);
 		    	
 		    }
 	};
 
-	private void composeMmsMessage(String message, Uri attachment) {
-		Intent intent = new Intent(Intent.ACTION_SENDTO);
-		intent.setType(HTTP.PLAIN_TEXT_TYPE);
+
+	private void sendTextMessage(String message, String phoneNumber){
+		/*
+		startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("sms:"
+				+ phoneNumber)));
+		*/
+		Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("sms:" + phoneNumber));
 		intent.putExtra("sms_body", message);
-		intent.putExtra(Intent.EXTRA_STREAM, attachment);
-		if (intent.resolveActivity(getPackageManager()) != null) {
-			startActivity(intent);
-		}
-	}
-
-	private void sendTextMessage(String message, String phone_number){
-
+		startActivity(intent);
 	}
 
     @Override
