@@ -2,9 +2,8 @@ package com.oryx.allaboard;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.text.Editable;
+import android.telephony.SmsManager;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -12,7 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 /*
-This is now obsolete (8/22/2019)
+This class is now obsolete (8/22/2019)
  */
 public class PickupMessage extends Activity {
 	 String msg1 = "My train will be arriving at ";
@@ -54,29 +53,16 @@ public class PickupMessage extends Activity {
 		    	  return;
 		      }
 		      EditText messageWidget = (EditText)findViewById(R.id.pickup_message);
-		      Editable editMessage = messageWidget.getText();
-		      String message = editMessage.toString();
+		      String message = messageWidget.getText().toString();
 		      if (message == null || message.equals("")) {
 		    	  Toast.makeText( CurrentActivity, "Please enter message.", Toast.LENGTH_SHORT).show();
 		    	  return;
 		      }
-		      //SmsManager sm = SmsManager.getDefault();
-			  //sm.sendTextMessage(phoneNumber, null, message, null, null);
-			  sendTextMessage(message, phoneNumber);
+		      SmsManager sm = SmsManager.getDefault();
+			  sm.sendTextMessage(phoneNumber, null, message, null, null);
 		    	
 		    }
 	};
-
-
-	private void sendTextMessage(String message, String phoneNumber){
-		/*
-		startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("sms:"
-				+ phoneNumber)));
-		*/
-		Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("sms:" + phoneNumber));
-		intent.putExtra("sms_body", message);
-		startActivity(intent);
-	}
 
     @Override
     public void onStop() {
