@@ -11,6 +11,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+/*
+This is now obsolete (8/22/2019)
+ */
 public class PickupMessage extends Activity {
 	 String msg1 = "My train will be arriving at ";
 	 String msg2 = " at the ";
