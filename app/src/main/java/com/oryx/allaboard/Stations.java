@@ -315,7 +315,7 @@ public class Stations {
 		MainListView2.setSelection(list2NowIndex);
 
 		TextView pkpPrompt = (TextView) t.findViewById(R.id.pickup_prompt);
-		pkpPrompt.setText("Click on a train to send a pickup message.");
+		pkpPrompt.setText("Click on a train to send a pickup message\nYou will need to restart AllAboard afterwards");
 
 		// Debug.stopMethodTracing();
 
