@@ -213,7 +213,6 @@ public class Stations {
 			stationName2 = (String) adapter2.getItem(0);
 		int stationId1 = StationMap.get(stationName1);
 		int stationId2 = StationMap.get(stationName2);
-	    //Avoid doing database search again when returning from PickupMessage
         TextView tv1 = (TextView) t.findViewById(R.id.title12_textview);
         TextView tv2 = (TextView) t.findViewById(R.id.title21_textview);
 

@@ -2,7 +2,6 @@
 <!--
 New train
 Added highlight when button is clicked
-Made return from PickupMessage faster
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.oryx.allaboard"
@@ -28,9 +27,6 @@ Made return from PickupMessage faster
         <activity android:name=".AllAboardApp"
             android:label = "@string/app_name"
             android:configChanges="orientation|keyboardHidden">
-        </activity>
-        <activity android:name=".PickupMessage"
-            android:label = "@string/app_name">
         </activity>
         <activity android:name=".MainApp"
             android:label = "@string/app_name"
